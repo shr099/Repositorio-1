@@ -44,7 +44,7 @@ def game():
     if option == 3:
       result = multi(num_1, num_2)
       if result == answer:
-        score += 1
+        score += 2
         print('Correcto!!')
       else:
        print('Incorrecto')
@@ -52,7 +52,7 @@ def game():
     if option == 4:
       result = division(num_1, num_2)
       if result == answer:
-        score += 1
+        score += 2
         print('Correcto!!')
       else:
        print('Incorrecto')
@@ -60,7 +60,7 @@ def game():
     if option == 5:
       result = potencia(num_1, num_2)
       if result == answer:
-        score += 1
+        score += 4
         print('Correcto!!')
       else:
        print('Incorrecto')
@@ -68,7 +68,7 @@ def game():
     if option == 6:
       result = modulo(num_1, num_2)
       if result == answer:
-        score += 1
+        score += 4
         print('Correcto!!')
       else:
        print('Incorrecto')
